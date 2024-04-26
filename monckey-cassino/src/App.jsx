@@ -13,21 +13,8 @@ function App() {
         <h1>Monkey´s Luck</h1>
       </header>
       <main>
-      <h2 class="h2">Fortune Tiger</h2>
-        <section>
-        <h2 class="h2">Fortune Tiger</h2>
-          {/* <ul>
-            <li>Jogo 1</li>
-            <li>Jogo 2</li>
-            <li>Jogo 3</li>
-          </ul> */}
-        </section>
-        <section>
-          {/* <h2>Sobre Nós</h2>
-          </section>
-          <section>
-          <p>Fortune Tiger</p> */}
-        </section>
+      <h2 id="fortune-tiger">Fortune Tiger</h2>
+        
       </main>
       <footer>
         <p>&copy; Cassino Club</p>
