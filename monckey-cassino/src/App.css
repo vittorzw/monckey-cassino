@@ -2,27 +2,39 @@
 
 .App {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin-top: 0;
   
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
+  background-color: #000000;
+  color: #b19141;
+  padding: 1px 0;
+  
 }
 
 main {
-  padding: 20px;
+  background-color: #b19141;
+  padding: 700px;
+  /* margin-top: auto; */
+
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #000000;
+  color: #b19141;
   padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
+.h2 {
+  h2 {
+    margin-top: 10px;
+    top: -2000px; 
+}
+}
+
+
