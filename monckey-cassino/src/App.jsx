@@ -10,9 +10,9 @@ function App() {
         <h1>Monkey´s Luck</h1>
       </header>
       <main>
+      <h2 class="h2">Fortune Tiger</h2>
         <section>
-          <div className='h2'></div>
-          <h2>Fortune Tiger</h2>
+        <h2 class="h2">Fortune Tiger</h2>
           {/* <ul>
             <li>Jogo 1</li>
             <li>Jogo 2</li>
@@ -20,10 +20,10 @@ function App() {
           </ul> */}
         </section>
         <section>
-          <h2>Sobre Nós</h2>
+          {/* <h2>Sobre Nós</h2>
           </section>
           <section>
-          <p>Fortune Tiger</p>
+          <p>Fortune Tiger</p> */}
         </section>
       </main>
       <footer>
