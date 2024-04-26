@@ -1,17 +1,14 @@
+// Arquivo Login.jsx
 import React, { useState } from 'react';
 
 function Login() {
-  // Estados para armazenar os valores dos campos de usuário e senha
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  // Função para lidar com o envio do formulário
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aqui você pode adicionar a lógica para autenticar o usuário com o nome de usuário e senha fornecidos
     console.log('Username:', username);
     console.log('Password:', password);
-    // Resetar os campos após o envio do formulário
     setUsername('');
     setPassword('');
   };
