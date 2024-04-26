@@ -2,9 +2,8 @@
 
 .App {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin-top: 0;
   
 }
 
@@ -15,7 +14,7 @@ header {
 }
 
 main {
-  padding: 20px;
+  padding: 700px;
 }
 
 footer {
@@ -26,3 +25,14 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* h2 {
+  position: fixed;
+  top: 50;
+  left: 50;
+  width: 100%;
+  text-align: center;
+  background-color: #581313;
+  color: #fff;
+  padding: 10px 0;
+} */

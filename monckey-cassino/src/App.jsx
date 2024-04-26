@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Monckey´s Luck</h1>
+        <h1>Monkey´s Luck</h1>
       </header>
       <main>
         <section>
+          <div className='h2'></div>
           <h2>Fortune Tiger</h2>
           {/* <ul>
             <li>Jogo 1</li>
@@ -20,7 +21,9 @@ function App() {
         </section>
         <section>
           <h2>Sobre Nós</h2>
-          <p>Descrição do cassino e seus serviços.</p>
+          </section>
+          <section>
+          <p>Fortune Tiger</p>
         </section>
       </main>
       <footer>
